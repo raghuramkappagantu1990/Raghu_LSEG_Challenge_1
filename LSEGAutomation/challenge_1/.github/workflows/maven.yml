@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: LSEGAutomation/challenge_1
+        working-directory: . # ✅ repo root where pom.xml exists
 
     steps:
       - name: Checkout repository
@@ -45,10 +45,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: testng-reports
-          path: LSEGAutomation/challenge_1/test-output/
+          path: test-output/
 
       - name: Upload Static Analysis Reports
         uses: actions/upload-artifact@v4
         with:
           name: static-analysis-reports
-          path: LSEGAutomation/challenge_1/target/site/
+          path: target/site/
