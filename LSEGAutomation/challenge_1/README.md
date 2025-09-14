@@ -140,5 +140,4 @@ Each push/PR triggers **GitHub Actions**:
 **Raghu Ram**
 
 - 💼 SDET | Automation Engineer
-- 🌐 [LinkedIn](https://www.linkedin.com/) _(add your real link)_
-- 📧 raghuram@example.com
+- 🌐 [LinkedIn](https://www.linkedin.com/) \_https://www.linkedin.com/in/raghu-ram-2aa048110/
