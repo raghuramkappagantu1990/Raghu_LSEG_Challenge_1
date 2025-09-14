@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: Raghu_LSEG_Challenge_1
+        working-directory: LSEGAutomation/challenge_1
 
     steps:
       - name: Checkout repository
@@ -45,10 +45,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: testng-reports
-          path: Raghu_LSEG_Challenge_1/test-output/
+          path: LSEGAutomation/challenge_1/test-output/
 
       - name: Upload Static Analysis Reports
         uses: actions/upload-artifact@v4
         with:
           name: static-analysis-reports
-          path: Raghu_LSEG_Challenge_1/target/site/
+          path: LSEGAutomation/challenge_1/target/site/
